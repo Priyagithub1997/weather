@@ -1,0 +1,85 @@
+body{
+  background-color:aqua
+}
+.container{
+  display: flex;
+  justify-content: center;
+ flex-direction: column;
+   margin-left: 35%;
+   margin-top: 3%;
+  background-color: white;
+  height: 90vh;
+  width:70vh;
+border-radius: 5px;
+}
+.searchbox{
+  margin-top: 10px;
+  border: 2px solid blue;
+  width: 90%;
+  height: 30px;
+  align-items: center;
+  border-radius: 10px;
+  margin-left: 20px;
+  
+ 
+}
+.searchinput{
+  margin-left: 5px;
+  padding: 6px;
+  width: 90%;
+ outline: none;
+ border: none;
+
+
+}
+.sun {
+  color: red;
+  font-size:100px;
+ margin-left: 35%;
+  align-items: center;
+  margin-top: 20px;
+ 
+}
+.humidity,.windspeed{
+  font-size: 50px;
+  align-items: center;
+  color: darkblue;
+}
+.citydiv{
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+ 
+  
+}
+.humiditydiv{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.citydiv h2{
+
+  color:orange
+
+}
+span{
+  color: blue;
+}
+
+.searchicon{
+ margin-top:5px;
+ margin-right: 2px;
+ color: blue;
+ font-size: large;
+ cursor: pointer;
+}
+
+.blue{
+  color: lightseagreen;
+  font-size:100px;
+ margin-left: 35%;
+  align-items: center;
+  margin-top: 20px;
+ 
+}
