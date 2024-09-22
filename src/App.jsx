@@ -58,7 +58,7 @@ if(e.key==="Enter")
        
         </div>
        <div className='imagediv'>
-        {temp>30 ? <FontAwesomeIcon className='sun' icon={faSun}/>
+        {temp>30 ? <FontAwesomeIcon className='sun' icon={faSun}/> 
         :temp>28 ? <FontAwesomeIcon className='sun' icon={faCloudSun} />
         :temp>26 ? <FontAwesomeIcon className='blue ' icon={faCloudSunRain} />
         :temp>18 ? <FontAwesomeIcon className='blue ' icon={faWater} />
